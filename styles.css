@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: thistle;
+    color: black;
+    padding: 20px 0;
+}
+
+header .container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Styling for the about section */
+#about {
+    background-color: salmon;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-text {
+    margin-left: 50px;
+}
+
+/* Styling for the skills section */
+#skills {
+    background-color: lightgreen;
+    padding: 50px 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    background-color: peru;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Styling for the projects section */
+#projects {
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styling for the resume section */
+#resume {
+    background-color: lightskyblue;
+    padding: 50px 0;
+}
+
+/* Styling for the contact section */
+#contact {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 50px 0;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: khaki;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
